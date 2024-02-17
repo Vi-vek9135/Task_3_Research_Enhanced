@@ -8,6 +8,8 @@ This is a Python script designed to generate research book names and enhanced fa
 
 ## Setup
 
+I have used python==3.10.0
+
 1. **Installation**: Ensure you have the required Python packages installed. You can install them using pip:
 
     ```
