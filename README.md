@@ -2,9 +2,9 @@
 
 
 
-# Research Book Name Generator
+# Research Book Name Generator and Enhanced Fact Generation 
 
-This is a Python script designed to generate research book names based on user queries. It utilizes the Google Generative AI API to generate relevant titles.
+This is a Python script designed to generate research book names and enhanced fact generation based on user queries. It utilizes the Google Generative AI API to generate relevant titles.
 
 ## Setup
 
@@ -44,6 +44,19 @@ This is a Python script designed to generate research book names based on user q
     prompt = to_get_response(query)
     print(prompt)
     ```
+
+- **Fact**: Define your fact query.
+
+    ```python
+    fact = "Loan pending with the bank"
+    ```
+
+- **Generating Enhanced Fact**: The script utilizes a pre-trained generative model to generate enhanced fact based on the provided fact
+    ```python
+    prompt = to_get_response(fact)
+    print(prompt)
+    ```
+    
 
 ## Code Overview
 
